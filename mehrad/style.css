@@ -1,0 +1,367 @@
+*{
+	outline:0px dashed red;
+}
+body,html{
+	height: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.9em;
+}
+body{
+	position: relative;
+
+	background-color: rgb(242,242,242);
+}
+
+a{
+	color:#598f8f;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+}
+
+div.intro{
+	width:1070px;
+	height: 100%;
+	background-image: url('images/');
+	background-repeat: no-repeat;
+	float: left;
+	background-color: rgb(17,13,12);
+	position: relative;
+
+}
+div.backcolor{
+	position: absolute;
+	top:83px;
+	width:7000px;
+	left:1060px;
+	bottom: 0;
+	z-index:-1;
+	background-color: rgb(78,37,0);
+}
+div.train{
+	width:7000px;
+	
+	top:0;
+	bottom:0;
+	position: absolute;
+	float: left;
+	left:1060px;
+	background-image:url('images/header-inner-bg2.gif');
+	background-repeat: repeat-x;
+}
+
+div.intro h1{
+	background-image: url('images/376010_248902308504907_183467564_a.jpg');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	width: 550px;
+	height:417px;
+	text-indent: -9000px;
+	float: left;
+}
+
+div.intro p.first-guide{
+	margin: 330px 0 0 580px;
+	background-image: url('images/thatway2.gif');
+	background-repeat: no-repeat;
+	width: 260px;
+	height: 41px;
+	text-indent: -9000px;
+	background-position: 0 -123px;
+
+}
+
+div.intro p.first-guide:hover{
+	background-position: 0 0;
+}
+
+ul.info{
+	color: #598F8F;
+	list-style-type: none;
+	position: absolute;
+	clear:both;
+	top:94%;
+	left:0;
+	height: 25px;
+	font-size: 0.8em;
+}
+
+ul.info li{
+	float: left;
+	padding:6px 30px 6px 10px;
+}
+
+ul.info li.tel{
+	background-image: url('images/contactbg.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+ul.info li.mail{
+	background-image: url('images/contactbg.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+ul.info li.little-about{
+	width:600px;
+	background-image: url('images/contactbg2.png');
+}
+
+ul.info li.little-about a{
+	color:#3374A6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.info li.little-about span{
+	-webkit-transition: all 150ms;
+}
+
+ul.info li.little-about:hover span.first-arrow{
+	margin-left: 2px;
+}
+
+ul.info li.little-about:hover span.secend-arrow{
+
+	margin-left: 2px;
+}
+
+div.train section.outerbox{
+	width: 1060px;
+	float: left;
+	position: relative;
+	margin-left: 400px;
+	
+}
+
+ div.back{
+	float: left;
+	width:120px;
+	min-height: 300px;
+}
+
+div.back h1{
+	display: block;
+	width:30px;
+	min-height:80px;
+	background-image: url('images/hatch-dark.png');
+	background-repeat: repeat;
+	margin-top: 40px;
+	float: right;
+}
+
+ div.next{
+	float: right;
+	width:120px;
+	min-height:300px;
+}
+
+section.outerbox div.box{
+	width:800px;
+	min-height: 300px;
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-top: 40px;
+	padding:10px;
+	background-image: url('images/bg_main.jpg');
+	background-repeat: repeat;
+	border:1px solid #eee;
+}
+
+section.outerbox div.cloud1{
+	background-position: 50px 300px;
+}
+
+section.outerbox div.box img{
+	display: block;
+	width: 798px;
+	height: 276px;
+	margin-bottom: 10px;
+	border:1px solid #eee;
+}
+
+section.outerbox div.box article{
+	width:798px;
+	min-height: 200px;
+}
+
+section.outerbox article aside.task-key{
+	min-height:170px;
+	width:300px;
+	float: right;
+	background-color: rgb(242,242,242);
+	border:1px solid #e1ebf3;
+	padding:10px 15px;
+}
+
+section.outerbox article aside.task-key h3{
+	font-size: 13px;
+	font-weight: bold;
+
+	margin-bottom: 10px;
+
+}
+
+section.outerbox article aside.task-key ul{
+	padding:10px;
+	display: block;
+	background-color: rgb(235,237,239);
+	border:1px solid #e1ebf3;
+}
+
+section.outerbox article aside.task-key ul li{
+	font-family:inherit;
+	color:rgb(128,70,40)
+}
+
+section.outerbox article div.detail{
+	margin-right: 340px;
+	width:450px;
+}
+
+section.outerbox article div.detail h1{
+	font-family: tahoma;
+	font-size: 16px;
+	font-weight:bold;
+	margin:10px 0 5px 0;
+}
+
+section.outerbox article div.detail p{
+	margin-bottom: 5px;	
+}
+
+section.outerbox article div.detail div.moreinfo{
+	position: absolute;
+	border:1px solid #e1ebf3;
+	bottom:10px;
+	left:140px;
+	padding:5px 10px;
+	background-color: #f2f2f2;
+
+}
+
+section.outerbox article div.detail div.moreinfo a{
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#598f8f;
+}
+
+div.train section.about{
+	background-image: url('images/cloud1.jpg');
+	background-repeat: no-repeat;
+	width:1060px;
+	float: left;
+	margin-left: 400px;
+	min-height:300px;
+	background-position: 150px 300px;
+}
+
+div.train section.about article{
+	width:800px;
+	margin:50px 120px 0 120px;
+}
+
+div.train section.about p.about-acetech{
+	margin-bottom: 10px;
+	background-image: url('images/fff50.png');
+	padding:10px;
+	display: block;
+	border:1px solid #eee;
+	color:#666;
+
+} 
+
+div.train section.about p.cal{
+	color:#598f8f;
+	width: 260px;
+	text-align: center;
+	margin:0px 0 0 80px;
+	font-weight: bold;
+	background-image: url('images/fff50.png');
+	float: left;
+	border:1px solid #eee;
+	padding:10px;
+}
+
+div.train section.about p.e-mail{
+	color:#598f8f;
+	margin:10px 0 0 440px;
+	width: 260px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url('images/fff50.png');
+	border:1px solid #eee;
+	padding:10px;
+}
+
+section.about div.moreinfo{
+	width:800px;
+	margin-top: 40px;
+	padding:10px;
+}
+
+section.about div.moreinfo div.technologies{
+	width:160px;
+	margin-right: 50px;
+}
+
+section.about div.moreinfo div.friends{
+	margin-left: 630px;
+}
+
+section.about div.moreinfo div.technologies h3{
+	font-family: inherit;
+	font-size: 13px;
+	color: #666;
+	font-weight:bold;
+	margin: 5px 0 10px 0;
+}
+
+section.about div.moreinfo div.technologies ul li{
+	padding:6px 3px 6px 0;
+	font-family:inherit;
+	font-size: 11px;
+	color: #666;
+}
+
+
+div.intro div.welcomeimg{
+	width:230px;
+	height:81px;
+	position: absolute;
+	top:0;
+	left:100px;
+	z-index: 30;
+	background-image: url('images/welcome.jpg');
+}
+
+div.intro div.lamps{
+	width:100px;
+	height: 71px;
+	position: absolute;
+	left:700px;
+	top:0;
+	background-image: url('images/lamp-3.jpg');
+
+}
+
+
+
+
+
