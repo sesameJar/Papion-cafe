@@ -348,16 +348,16 @@ div.intro div.welcomeimg{
 	top:0;
 	left:100px;
 	z-index: 30;
-	background-image: url('images/welcome.jpg');
+	background-image: url('images/welcome.png');
 }
 
 div.intro div.lamps{
 	width:100px;
 	height: 71px;
 	position: absolute;
-	left:700px;
+	left:900px;
 	top:0;
-	background-image: url('images/lamp-3.jpg');
+	background-image: url('images/lapms.png');
 
 }
 
