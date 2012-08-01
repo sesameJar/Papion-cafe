@@ -36,16 +36,14 @@ a{
 div.intro{
 	width:1070px;
 	height: 100%;
-	background-image: url('images/');
-	background-repeat: no-repeat;
+	background: -webkit-gradient(linear,left top,right top, from(#110d0c), to(#4e2500));
 	float: left;
-	background-color: rgb(17,13,12);
 	position: relative;
 
 }
 div.backcolor{
 	position: absolute;
-	top:83px;
+	top:80px;
 	width:7000px;
 	left:1060px;
 	bottom: 0;
@@ -59,19 +57,24 @@ div.train{
 	bottom:0;
 	position: absolute;
 	float: left;
-	left:1060px;
+	left:1097px;
 	background-image:url('images/header-inner-bg2.gif');
 	background-repeat: repeat-x;
 }
 
 div.intro h1{
-	background-image: url('images/376010_248902308504907_183467564_a.jpg');
+	background-image: url('images/special.jpg');
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	width: 550px;
 	height:417px;
 	text-indent: -9000px;
+	margin-left:300px;
+	margin-top: 80px;
 	float: left;
+	display: block;
+	-webkit-box-shadow: 0 0 40px #eef;
+	
 }
 
 div.intro p.first-guide{
@@ -347,7 +350,7 @@ div.intro div.welcomeimg{
 	position: absolute;
 	top:0;
 	left:100px;
-	z-index: 30;
+	z-index: 3;
 	background-image: url('images/welcome.png');
 }
 
